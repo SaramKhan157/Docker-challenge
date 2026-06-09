@@ -157,7 +157,17 @@ docker compose ps   # → flask-1, flask-2, flask-3 all Up
 
 ## Screenshots
 
-See `doc/screenshots/` for the app running, the containers listed, and the scaling verification.
+**Welcome page served through Nginx on port 5001:**
+
+![Welcome page](doc/screenshots/welcome-page.png)
+
+**Visit counter — Redis persisting the count across requests:**
+
+![Visit counter](doc/screenshots/visit-counter.png)
+
+**All 5 containers running — 3x Flask, Nginx, Redis (healthy):**
+
+![Docker compose ps](doc/screenshots/docker-compose-ps.png)
 
 
 
